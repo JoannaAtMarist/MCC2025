@@ -4,15 +4,12 @@ title: Marist Computing Conference
 permalink: /index.html
 ---
 
+
 <section class="hero">
-  <h2>Friday, November 7, 2025 · Murray Student Center · Marist University · 3399 North Rd, Poughkeepsie, NY</h2>
-
-  {% if site.is_preview %}<p><strong>Preview:</strong> This is a practice build for review.</p>{% endif %}
-  <p>Be inspired to do more at the Marist Computing Conference. Talks, keynote lunch, networking—and a collocated student poster session (TechMeet).</p>
-  <div class="cta-row">
-
-  </div>
+  <h2>Friday, November 7, 2025 · Murray Student Center · Marist University</h2>
+  <p>Be inspired to do more at the Marist Computing Conference. Talks, keynote lunch, networking — and a collocated student poster session (TechMeet).</p>
 </section>
+
 
 <section class="schedule">
   <h3>At a glance</h3>

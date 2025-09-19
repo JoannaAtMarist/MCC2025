@@ -184,3 +184,35 @@ a:hover, a:focus { text-decoration: underline; }
   cursor: default;
   text-decoration: none;
 }
+
+
+
+/* Row 1: Logo bar */
+.logo-bar {
+  background: #fff;
+  padding: .5rem 0;
+  border-bottom: 1px solid #ddd;
+}
+.logo-bar .logo-img {
+  height: 60px;
+}
+
+
+
+
+
+
+
+
+
+/* Row 3: nav bar (reuses .site-header/.site-nav) */
+.site-header {
+  background: var(--marist-red);
+  padding: .75rem 0;
+}
+.site-nav a {
+  color: #fff;
+  margin-right: 1.5rem;
+  font-weight: 600;
+}
+
