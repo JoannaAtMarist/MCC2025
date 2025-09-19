@@ -1,34 +1,41 @@
 {
-  "blocks": [
+  "mcc_blocks": [
     {
       "time": "11:00 AM",
       "title": "Check-in opens (continues all day)",
       "location": "Murray Student Center"
     },
     {
-      "time": "11:30 AM \u2013 1:00 PM",
-      "title": "Buffet Lunch + Keynote (Scott Tunmer: AI & Cybersecurity for the Enterprise)",
+      "time": "11:30 AM – 1:00 PM",
+      "title": "Buffet Lunch + Keynote (Scott Tunmer: AI & Cybersecurity for the Enterprise, 12–1 PM)",
       "location": "Cabaret, 2nd floor"
     },
     {
-      "time": "1:00 PM \u2013 3:00 PM",
+      "time": "1:00 PM – 3:00 PM",
       "title": "Concurrent Technology Speaker Presentations",
-      "location": "River Rooms (SC 3101\u20133105)"
-    },
+      "location": "River Rooms (SC 3101–3105)"
+    }
+  ],
+  "techmeet_blocks": [
     {
-      "time": "3:30 PM \u2013 5:00 PM",
-      "title": "Student Poster Viewing & Judging (TechMeet)",
+      "time": "3:00 PM – 3:30 PM",
+      "title": "Student Poster Presenter Check-in & Setup",
       "location": "3rd floor hallways"
     },
     {
-      "time": "5:00 PM \u2013 6:00 PM",
-      "title": "Networking (refreshments)",
+      "time": "3:30 PM – 5:00 PM",
+      "title": "Student Poster Viewing & Judging",
+      "location": "3rd floor hallways"
+    },
+    {
+      "time": "5:00 PM – 6:00 PM",
+      "title": "Networking (refreshments, pizza & finger foods)",
       "location": "3rd floor"
     },
     {
-      "time": "6:00 PM \u2013 6:30 PM",
-      "title": "Awards Ceremony (MCC + TechMeet)",
-      "location": "River Rooms (SC 3102\u20133105)"
+      "time": "6:00 PM – 6:30 PM",
+      "title": "Awards Ceremony (MCC + TechMeet Student Posters)",
+      "location": "River Rooms (SC 3102–3105)"
     }
   ]
 }

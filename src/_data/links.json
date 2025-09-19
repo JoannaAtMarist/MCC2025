@@ -1,5 +1,6 @@
 {
   "hometown_url": "https://example.com/hometown-registration",
   "techmeet_url": "https://bit.ly/mhvtm-2025",
-  "map_url": "https://www.marist.edu/about/map"
+  "map_url": "https://www.marist.edu/about/map",
+  "contact_email": "mailto:MaristComputingConf@marist.edu"
 }
