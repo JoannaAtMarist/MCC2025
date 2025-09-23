@@ -1,0 +1,119 @@
+.save-the-date {
+  background-color: #fff;
+  color: #000;
+  border-radius: 1rem;
+  margin: 2rem auto;
+  max-width: 900px;
+  padding: 2rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.save-the-date-inner {
+  display: flex;
+  flex-direction: row;   /* default: horizontal */
+  align-items: center;
+  gap: 2rem;
+}
+
+.save-the-date-image img {
+  max-width: 320px;
+  height: auto;
+  border-radius: 0.5rem;
+  display: block;
+}
+
+.save-the-date-content {
+  flex: 1;
+}
+
+.save-the-date h2 {
+  color: #c91235; /* Marist Red */
+}
+
+.save-the-date p {
+  color: #63666f; /* Greystone Gray */
+  margin: 0.5rem 0;
+}
+
+.save-the-date strong {
+  color: #000;
+}
+
+.save-the-date .techmeet {
+  color: #c91235;
+}
+
+.save-the-date .btn {
+  display: inline-block;
+  background: #c91235;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+
+/* 📱 Mobile layout */
+@media (max-width: 768px) {
+  .save-the-date-inner {
+    flex-direction: column;   /* stack vertically */
+    text-align: center;
+  }
+
+  .save-the-date-image img {
+    max-width: 100%;          /* full width on mobile */
+  }
+}
+
+
+
+.keynote-card {
+  background-color: #fff;
+  color: #000;
+  border-radius: 1rem;
+  margin: 2rem auto;
+  max-width: 900px;
+  padding: 2rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.keynote-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.keynote-image img {
+  max-width: 320px;   /* match Save the Date image size */
+  height: auto;
+  border-radius: 0.5rem;
+  display: block;
+}
+
+.keynote-content {
+  flex: 1;
+}
+
+.keynote-content h2 {
+  color: #c91235; /* Marist Red heading */
+}
+
+.keynote-content p {
+  color: #63666f; /* Greystone Gray body */
+  margin: 0.5rem 0;
+}
+
+@media (max-width: 768px) {
+  .keynote-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .keynote-image img {
+    max-width: 100%; /* full width on mobile */
+  }
+}
+
