@@ -51,7 +51,20 @@ permalink: /index.html
   <h2>Contact Us</h2>
   <p>
     Questions? Reach out to us at:<br>
-    <a href="mailto:MaristComputingConf@marist.edu">MaristComputingConf@marist.edu</a>
+    <a href="mailto:MaristComputingConf@marist.edu" class="contact-link">
+      <svg xmlns="http://www.w3.org/2000/svg" 
+           viewBox="0 0 24 24" 
+           width="20" height="20" 
+           fill="currentColor" 
+           class="icon-envelope">
+        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 
+        1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 
+        2-2zm0 2v.01L12 13l8-6.99V6H4zm16 
+        12V8l-8 6-8-6v10h16z"/>
+      </svg>
+      MaristComputingConf@marist.edu
+    </a>
   </p>
 </section>
+
 

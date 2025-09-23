@@ -151,6 +151,23 @@
   text-decoration: underline;
 }
 
+.contact-link {
+  color: #c91235; /* Marist Red */
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
+
+.icon-envelope {
+  flex-shrink: 0;
+}
+
 
 
 
