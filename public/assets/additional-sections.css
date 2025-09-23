@@ -117,3 +117,87 @@
   }
 }
 
+
+
+
+.contact-card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.contact-card h2 {
+  color: #c91235; /* Marist Red */
+  margin-bottom: 1rem;
+}
+
+.contact-card p {
+  color: #63666f; /* Greystone Gray */
+  font-family: "Inter", sans-serif;
+  margin: 0.5rem 0;
+}
+
+.contact-card a {
+  color: #c91235; /* Marist Red link */
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.contact-card a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+/* keynote page below */
+.keynote-detail {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
+.keynote-detail-inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.keynote-photo img {
+  max-width: 280px;
+  border-radius: 0.5rem;
+}
+
+.keynote-info {
+  flex: 1;
+}
+
+.keynote-info h2 {
+  color: #c91235; /* Marist Red */
+  margin-top: 0;
+}
+
+.keynote-info h3 {
+  margin-top: 1.2rem;
+  color: #63666f; /* Greystone Gray */
+}
+
+@media (max-width: 768px) {
+  .keynote-detail-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .keynote-photo img {
+    max-width: 100%;
+  }
+}
+

@@ -47,8 +47,11 @@ permalink: /index.html
   </div>
 </section>
 
-
-
-<section>
-<h3><a href="{{ links.contact_email }}">Contact Us</a></h3>
+<section class="contact-card">
+  <h2>Contact Us</h2>
+  <p>
+    Questions? Reach out to us at:<br>
+    <a href="mailto:MaristComputingConf@marist.edu">MaristComputingConf@marist.edu</a>
+  </p>
 </section>
+
