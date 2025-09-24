@@ -48,7 +48,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 2rem;
+  gap: .5rem;
   justify-content: space-between;
 }
 .keynote-image img {

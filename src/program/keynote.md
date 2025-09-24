@@ -9,13 +9,13 @@ permalink: /program/keynote/index.html
 
   <div class="keynote-detail-inner">
     <div class="keynote-photo">
-      <img src="/assets/images/keynote-placeholder.jpg" alt="Keynote Speaker Placeholder">
+      <img src="/MCC2025/assets/images/keynote-pic.jpg" alt="Keynote Speaker">
     </div>
 
     <div class="keynote-info">
-      <h2>Scott Tumner</h2>
-      <p><strong>Principal Consultant, New Era Technologies</strong></p>
-      <p><em>Bio coming soon.</em></p>
+      <h2>Scott D. Tunmer, CISSP, PMP®, CSSBG</h2>
+      <p><strong>Practice Manager, GRC, New Era Technologies</strong></p>
+      <p><em>Scott has over 40 years IT experience, including software development, project management, and information security.  He is responsible for service delivery of Governance, Risk & Compliance (GRC) and virtual CISO engagements.</em></p>
 
       <h3>Title of Presentation</h3>
       <p><em>To be announced</em></p>

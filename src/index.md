@@ -8,7 +8,8 @@ permalink: /index.html
 <section class="hero">
   <h1>Marist Computing Conference</h1>
   <h2>Hosted at Marist University</h2>
-  <h3>Friday, November 7, 2025 · Murray Student Center</h3>  
+  <h3>Friday, November 7, 2025</h3>
+  <h3>Murray Student Center, 3399 North Rd, Poughkeepsie, NY 12601</h3>  
   
   <p>Be inspired to do more at the Marist Computing Conference. Talks, keynote lunch, networking — and a collocated student poster session (TechMeet).</p>
 </section>
@@ -19,7 +20,7 @@ permalink: /index.html
       <img src="/MCC2025/assets/images/hancock-center-official.jpg" alt="Hancock Center">
     </div>
     <div class="save-the-date-content">
-      <h2>Save the Date</h2>
+      <h2>Registration opens October 1st</h2>
 
       <p><strong>Friday, November 7, 2025</strong><br>
       Marist University · Poughkeepsie, NY</p>
@@ -37,12 +38,12 @@ permalink: /index.html
   <div class="keynote-inner">
     <div class="keynote-content">
       <h2>Keynote Speaker</h2>
-      <p><strong>Scott Tumner</strong><br>
-      Principal Consultant, New Era Technologies</p>
-      <p><em>Topic to be announced</em></p>
+      <p><strong>Scott D. Tunmer, CISSP, PMP®, CSSBG</strong><br>
+      Practice Manager, GRC, New Era Technologies</p>
+      <p><em>AI and Cybersecurity for the Enterprise</em></p>
     </div>
     <div class="keynote-image">
-      <img src="/MCC2025/assets/images/keynote-placeholder.jpg" alt="Keynote Speaker Placeholder">
+      <img src="/MCC2025/assets/images/keynote-pic.jpg" alt="Keynote Speaker">
     </div>
   </div>
 </section>

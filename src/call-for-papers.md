@@ -30,13 +30,13 @@ All submissions will be peer reviewed by the conference technical committee, inc
 
 ## Important Dates
 - **Abstracts due**: October 17, 2025  
-- **Submit your abstract here**: [Microsoft Forms link](https://forms.office.com/r/Bw0yh7Qg4S)
+- **Submit your abstract** [here.](https://forms.office.com/r/Bw0yh7Qg4S)
 
 ---
 
 ## Keynote Luncheon
 - **Limited seating with advance registration**  
-- **Industry Keynote**: Scott Tumner, Principal Consultant, New Era Technology  
+- **Industry Keynote**: Scott Tunmer, Principal Consultant, New Era Technology  
 - **Topic**: *“AI and Cybersecurity for the Enterprise”*  
 
 ---
