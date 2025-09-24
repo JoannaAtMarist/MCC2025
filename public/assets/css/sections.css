@@ -104,3 +104,38 @@
   .keynote-detail-inner { flex-direction: column; text-align: center; }
   .keynote-photo img { max-width: 100%; }
 }
+
+.organizer {
+  text-align: center;
+  margin: 3rem auto;
+}
+
+.organizer-logo img {
+  max-height: 80px;
+  width: auto;
+}
+
+.sponsors {
+  text-align: center;
+  margin: 3rem auto;
+}
+
+.sponsor-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.sponsor-logos img {
+  max-height: 60px;
+  width: auto;
+  object-fit: contain;
+  filter: grayscale(20%);
+  transition: filter 0.2s ease;
+}
+
+.sponsor-logos img:hover {
+  filter: grayscale(0%);
+}

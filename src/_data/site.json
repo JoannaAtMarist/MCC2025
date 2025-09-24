@@ -1,1 +1,32 @@
-{ "is_preview": true }
+{ "is_preview": true, 
+    "sponsors": {
+        "acm": {
+        "url": "https://www.acm.org/",
+        "logo": "/assets/sponsors/acm.svg"
+        },
+        "ecc": {
+        "url": "https://ecc.marist.edu/",
+        "logo": "/assets/sponsors/ecc.png"
+        },
+        "ibm": {
+        "url": "https://www.ibm.com/",
+        "logo": "/assets/sponsors/ibm.png"
+        },
+        "ieee": {
+        "url": "https://www.ieee.org/",
+        "logo": "/assets/sponsors/ieee.png"
+        },
+        "newera": {
+        "url": "https://www.neweratech.com/us/",
+        "logo": "/assets/sponsors/newera.svg"
+        },
+        "sentricus": {
+        "url": "https://www.sentricus.com/",
+        "logo": "/assets/sponsors/sentricus.webp"
+        },
+        "techmeet": {
+        "url": "https://bit.ly/mhvtm-2025",
+        "logo": "/assets/sponsors/techmeet.avif"
+        }
+    }
+}

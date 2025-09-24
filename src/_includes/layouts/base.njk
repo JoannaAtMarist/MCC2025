@@ -1,112 +1,104 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-  <base href="{{ '/' | url }}"> <!-- a <base> tag so other relative links “just work” -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ title or "Marist Computing Conference" }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/layout.css' | url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/sections.css' | url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/branding.css' | url }}">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
-  <meta name="description" content="Marist Computing Conference — November 7, 2025 — Murray Student Center">
+    <base href="{{ '/' | url }}">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ title or "Marist Computing Conference" }}</title>
 
-  {% if site.is_preview %}<meta name="robots" content="noindex, nofollow">{% endif %}
+    <!-- Styles -->
+    <link rel="stylesheet" href="{{ '/assets/css/layout.css' | url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/sections.css' | url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/branding.css' | url }}">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Source+Serif+4:wght@400;600&display=swap"
+        rel="stylesheet">
 
-
+    <meta name="description" content="Marist Computing Conference — November 7, 2025 — Murray Student Center">
+    {% if site.is_preview %}
+    <meta name="robots" content="noindex, nofollow">{% endif %}
 </head>
+
 <body>
 
     {% if site.is_preview %}
     <div style="background:#fff3cd;border-bottom:2px solid #ffec99;padding:.6rem 1rem;font-weight:600;">
-      Preview site for internal review — not the official conference website.
+        Preview site for internal review — not the official conference website.
     </div>
     {% endif %}
 
-  <a href="#main" class="skip-link">Skip to content</a>
+    <a href="#main" class="skip-link">Skip to content</a>
 
-
-  <!-- Row 1: Logo bar -->
-  <div class="logo-bar">
-    <div class="container">
-      <img src="{{ '/assets/images/marist-logo.jpg' | url }}" alt="Marist University logo" class="logo-img">
+    <!-- Row 1: Logo bar -->
+    <div class="logo-bar">
+        <div class="container">
+            <img src="{{ '/assets/images/marist-logo.jpg' | url }}" alt="Marist University logo" class="logo-img">
+        </div>
     </div>
-  </div>
 
+    <!-- Row 2: Nav bar -->
+    <nav class="site-header">
+        <div class="container site-nav">
+            <a href="{{ '/' | url }}">Home</a>
 
-
-  <!-- Row 3: Red nav bar -->
-  <nav class="site-header">
-    <div class="container site-nav">
-      <a href="{{ '/' | url }}">Home</a>
-
-          <div class="dropdown">
-            <a href="{{ '/program/' | url }}">Program</a>
-            <div class="dropdown-menu">
-              <a href="{{ '/program/at-a-glance/' | url }}">At-a-Glance</a>
-              <a href="{{ '/program/full-schedule/' | url }}">MCC Schedule</a>
-              <a href="{{ '/program/keynote/' | url }}">Keynote Speaker</a>
+            <div class="dropdown">
+                <a href="{{ '/program/' | url }}">Program</a>
+                <div class="dropdown-menu">
+                    <a href="{{ '/program/at-a-glance/' | url }}">At-a-Glance</a>
+                    <a href="{{ '/program/full-schedule/' | url }}">MCC Schedule</a>
+                    <a href="{{ '/program/keynote/' | url }}">Keynote Speaker</a>
+                </div>
             </div>
-          </div>
 
-          <!-- Venue dropdown -->
-          <div class="dropdown">
-            <a href="{{ '/venue/' | url }}">Venue</a>
-            <div class="dropdown-menu">
-              <a href="{{ '/venue/campus-map' | url }}">Campus Map</a>
-              <a href="{{ '/venue/directions-and-parking' | url }}">Directions & Parking</a>
+            <div class="dropdown">
+                <a href="{{ '/venue/' | url }}">Venue</a>
+                <div class="dropdown-menu">
+                    <a href="{{ '/venue/campus-map' | url }}">Campus Map</a>
+                    <a href="{{ '/venue/directions-and-parking' | url }}">Directions & Parking</a>
+                </div>
             </div>
-          </div>
 
-          <!-- Registration placeholder -->
-          <a href="#" class="disabled" aria-disabled="true">Registration (TBD)</a>
+            <a href="#" class="disabled" aria-disabled="true">Registration (TBD)</a>
+            <a href="{{ '/about/' | url }}">About</a>
+        </div>
+    </nav>
 
-          <!-- About -->
-          <a href="{{ '/about/' | url }}">About</a>
-          
-      </nav>
+    <main id="main" class="container">
+        {{ content | linkTechMeet | linkNewEra | safe }}
+    </main>
 
+    <!-- Organizer (ECC) -->
+    <section class="organizer container">
+        <h2>Organized By</h2>
+        <div class="organizer-logo">
+            <a href="{{ sponsors.ecc.url }}" target="_blank" rel="noopener noreferrer">
+                <img src="{{ sponsors.ecc.logo | url }}" alt="Enterprise Computing Community Logo">
+            </a>
+        </div>
+    </section>
 
-    </div>
-  </header>
+    <!-- Partner Organizations -->
+    <section class="sponsors container">
+        <h2>Partner Organizations</h2>
+        <div class="sponsor-logos">
+            {% for key, sponsor in sponsors %}
+            {% if key != "ecc" %}
+            <a href="{{ sponsor.url }}" target="_blank" rel="noopener noreferrer">
+                <img src="{{ sponsor.logo | url }}" alt="{{ key | capitalize }} Logo">
+            </a>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </section>
 
-  <main id="content" class="container">
-    {{ content | linkTechMeet | linkNewEra | safe }}
-  </main>
-
-
-  <!-- Organizer (ECC separated) -->
-  <section class="organizer container">
-    <h2>Organized By</h2>
-    <div class="organizer-logo">
-      <a href="{{ sponsors.ecc.url }}" target="_blank" rel="noopener noreferrer">
-        <img src="{{ sponsors.ecc.logo }}" alt="Enterprise Computing Community Logo">
-      </a>
-    </div>
-  </section>
-
-  <!-- Partner Organizations -->
-  <section class="sponsors container">
-    <h2>Partner Organizations</h2>
-    <div class="sponsor-logos">
-      {% for key, sponsor in sponsors %}
-        {% if key != "ecc" %}
-          <a href="{{ sponsor.url }}" target="_blank" rel="noopener noreferrer">
-            <img src="{{ sponsor.logo }}" alt="{{ key | capitalize }} Logo">
-          </a>
-        {% endif %}
-      {% endfor %}
-    </div>
-  </section>
-
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>© 2025 School of Computer Science & Mathematics, Marist University</p>
-      {% if site.is_preview %}<p><em>Preview / practice build</em></p>{% endif %}
-    </div>
-  </footer>
-
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2025 School of Computer Science & Mathematics, Marist University</p>
+            {% if site.is_preview %}<p><em>Preview / practice build</em></p>{% endif %}
+        </div>
+    </footer>
 
 </body>
+
 </html>

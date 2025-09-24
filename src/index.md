@@ -42,7 +42,7 @@ permalink: /index.html
       <p><em>Topic to be announced</em></p>
     </div>
     <div class="keynote-image">
-      <img src="/assets/images/keynote-placeholder.jpg" alt="Keynote Speaker Placeholder">
+      <img src="/MCC2025/assets/images/keynote-placeholder.jpg" alt="Keynote Speaker Placeholder">
     </div>
   </div>
 </section>
@@ -66,5 +66,6 @@ permalink: /index.html
     </a>
   </p>
 </section>
+
 
 

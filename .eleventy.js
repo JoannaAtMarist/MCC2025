@@ -2,10 +2,10 @@
 
 export default function (eleventyConfig) {
 
-  // Pass through the 'public' folder to the output
+  // Copy everything in /public/ to the site root
   eleventyConfig.addPassthroughCopy({ "public": "/" });
 
-  // Make sure assets are copied
+  // Copy assets folder to /assets/
   eleventyConfig.addPassthroughCopy("assets");
 
   // Auto-link "TechMeet" mentions
@@ -29,7 +29,7 @@ export default function (eleventyConfig) {
 
   return {
     dir: {
-      input: "src",
+      input: "src",        // your main content lives in /src
       includes: "_includes",
       data: "_data",
       output: "_site"
@@ -37,8 +37,7 @@ export default function (eleventyConfig) {
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk",
-    // JIC: site name if change needed again
-    pathPrefix: "/MCC2025/"
+    pathPrefix: "/MCC2025/"   // url adds /MCC2025/ on GitHub Pages
   };
 }
 
