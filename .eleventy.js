@@ -10,11 +10,22 @@ export default function (eleventyConfig) {
 
   // Auto-link "TechMeet" mentions
   eleventyConfig.addFilter("linkTechMeet", function (content) {
+    const url = this.ctx.techmeet_url || "https://bit.ly/mhvtm-2025";
     return content.replace(
       /\b(MHV\s*TechMeet|TechMeet)\b/g,
-      `<a href="https://bit.ly/mhvtm-2025" target="_blank" rel="noopener noreferrer">$1</a>`
+      `<a href="${url}" target="_blank" rel="noopener noreferrer">$1</a>`
     );
   });
+
+  // Auto-link "New Era Technologies" mentions
+  eleventyConfig.addFilter("linkNewEra", function (content) {
+    const url = this.ctx.newera_url || "https://www.neweratech.com/us/";
+    return content.replace(
+      /\b(New\s*Era\s*Technologies|New\s*Era)\b/g,
+      `<a href="${url}" target="_blank" rel="noopener noreferrer">$1</a>`
+    );
+  });
+
 
   return {
     dir: {
