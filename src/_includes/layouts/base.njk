@@ -59,6 +59,7 @@
                 </div>
             </div>
 
+            <a href="{{ '/call-for-papers/' | url }}">Call for Papers</a>
             <a href="#" class="disabled" aria-disabled="true">Registration (TBD)</a>
             <a href="{{ '/about/' | url }}">About</a>
         </div>
@@ -70,27 +71,48 @@
 
     <!-- Organizer (ECC) -->
     <section class="organizer container">
-        <h2>Organized By</h2>
-        <div class="organizer-logo">
-            <a href="{{ sponsors.ecc.url }}" target="_blank" rel="noopener noreferrer">
-                <img src="{{ sponsors.ecc.logo | url }}" alt="Enterprise Computing Community Logo">
-            </a>
-        </div>
+      <h2>Organized By</h2>
+      <div class="organizer-logo">
+        <a href="https://ecc.marist.edu/" target="_blank" rel="noopener noreferrer">
+          <img src="/MCC2025/assets/sponsors/ecc.png" alt="Enterprise Computing Community Logo">
+        </a>
+      </div>
     </section>
 
     <!-- Partner Organizations -->
     <section class="sponsors container">
-        <h2>Partner Organizations</h2>
-        <div class="sponsor-logos">
-            {% for key, sponsor in sponsors %}
-            {% if key != "ecc" %}
-            <a href="{{ sponsor.url }}" target="_blank" rel="noopener noreferrer">
-                <img src="{{ sponsor.logo | url }}" alt="{{ key | capitalize }} Logo">
-            </a>
-            {% endif %}
-            {% endfor %}
-        </div>
+      <h2>Partner Organizations</h2>
+      <div class="sponsor-logos">
+
+        <a href="https://www.acm.org/" target="_blank" rel="noopener noreferrer">
+          <img src="/MCC2025/assets/sponsors/acm.svg" alt="ACM Logo">
+        </a>
+
+        <a href="https://www.ibm.com/" target="_blank" rel="noopener noreferrer">
+          <img src="/MCC2025/assets/sponsors/ibm.png" alt="IBM Logo">
+        </a>
+
+        <a href="https://www.ieee.org/" target="_blank" rel="noopener noreferrer">
+          <img src="/MCC2025/assets/sponsors/ieee.png" alt="IEEE Logo">
+        </a>
+
+        <a href="https://www.neweratech.com/us/" target="_blank" rel="noopener noreferrer">
+          <img src="/MCC2025/assets/sponsors/newera.svg" alt="New Era Technologies Logo">
+        </a>
+
+        <a href="https://www.sentricus.com/" target="_blank" rel="noopener noreferrer">
+          <img src="/MCC2025/assets/sponsors/sentricus.webp" alt="Sentricus Logo">
+        </a>
+
+        <a href="https://bit.ly/mhvtm-2025" target="_blank" rel="noopener noreferrer">
+          <img src="/MCC2025/assets/sponsors/techmeet.avif" alt="TechMeet Logo">
+        </a>
+
+      </div>
     </section>
+
+
+
 
     <footer class="site-footer">
         <div class="container">
