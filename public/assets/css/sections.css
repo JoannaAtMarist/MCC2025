@@ -1,0 +1,106 @@
+/* ===============================
+   Section-Specific Styles
+   =============================== */
+
+/* Save the Date */
+.save-the-date {
+  background-color: #fff;
+  color: #000;
+  border-radius: 1rem;
+  margin: 2rem auto;
+  max-width: 900px;
+  padding: 2rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+.save-the-date-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+.save-the-date-image img {
+  max-width: 320px;
+  border-radius: 0.5rem;
+}
+.save-the-date-content { flex: 1; }
+.save-the-date h2 { color: var(--marist-red); }
+.save-the-date p { color: var(--greystone-gray); margin: 0.5rem 0; }
+.save-the-date strong { color: #000; }
+.save-the-date .techmeet { color: var(--marist-red); }
+.save-the-date .btn { margin-top: 1rem; }
+
+/* Mobile */
+@media (max-width: 768px) {
+  .save-the-date-inner { flex-direction: column; text-align: center; }
+  .save-the-date-image img { max-width: 100%; }
+}
+
+/* Keynote card */
+.keynote-card {
+  background-color: #fff;
+  border-radius: 1rem;
+  margin: 2rem auto;
+  max-width: 900px;
+  padding: 2rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+.keynote-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  justify-content: space-between;
+}
+.keynote-image img {
+  max-width: 320px;
+  border-radius: 0.5rem;
+}
+.keynote-content { flex: 1; }
+.keynote-content h2 { color: var(--marist-red); }
+.keynote-content p { color: var(--greystone-gray); margin: 0.5rem 0; }
+@media (max-width: 768px) {
+  .keynote-inner { flex-direction: column; text-align: center; }
+  .keynote-image img { max-width: 100%; }
+}
+
+/* Contact card */
+.contact-card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  text-align: center;
+}
+.contact-card h2 { color: var(--marist-red); margin-bottom: 1rem; }
+.contact-card p { color: var(--greystone-gray); margin: 0.5rem 0; }
+.contact-card a { color: var(--marist-red); font-weight: 600; text-decoration: none; }
+.contact-card a:hover { text-decoration: underline; }
+
+/* Keynote detail page */
+.keynote-detail {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  max-width: 900px;
+  margin: 2rem auto;
+}
+.keynote-detail-inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.keynote-photo img {
+  max-width: 280px;
+  border-radius: 0.5rem;
+}
+.keynote-info { flex: 1; }
+.keynote-info h2 { color: var(--marist-red); margin-top: 0; }
+.keynote-info h3 { margin-top: 1.2rem; color: var(--greystone-gray); }
+
+@media (max-width: 768px) {
+  .keynote-detail-inner { flex-direction: column; text-align: center; }
+  .keynote-photo img { max-width: 100%; }
+}

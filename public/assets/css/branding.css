@@ -1,0 +1,77 @@
+/* ===============================
+   Marist Branding: Variables, Fonts, Basics
+   =============================== */
+
+:root {
+  /* Brand Colors */
+  --marist-red: #c91235;
+  --reynard-red: #ff2745;
+  --greystone-gray: #63666f;
+  --dark-gray: #989AA5;
+  --white: #ffffff;
+
+  /* Fonts */
+  --font-serif: 'Source Serif 4', serif;
+  --font-sans: 'Inter', sans-serif;
+
+  /* Utility colors */
+  --link: var(--marist-red);
+}
+
+/* Reset & smoothing */
+* { box-sizing: border-box; }
+img, svg { max-width: 100%; height: auto; display: block; }
+html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+/* Body & type */
+body {
+  font-family: var(--font-sans);
+  color: var(--greystone-gray);
+  background: var(--white);
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Headlines */
+h1, h2, h3 {
+  font-family: var(--font-serif);
+  color: var(--marist-red);
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+h1 { font-size: clamp(1.875rem, 2.6vw, 2.5rem); line-height: 1.2; }
+h2 { font-size: clamp(1.375rem, 1.8vw, 1.75rem); }
+h3 { font-size: clamp(1.125rem, 1.4vw, 1.25rem); }
+
+/* Links */
+a { color: var(--link); text-decoration: none; }
+a:hover, a:focus { text-decoration: underline; }
+
+/* Focus visibility */
+:focus-visible {
+  outline: 3px solid var(--marist-red);
+  outline-offset: 2px;
+}
+
+/* Buttons */
+.btn, button {
+  display: inline-block;
+  background: var(--marist-red);
+  color: var(--white);
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn:hover, button:hover { background: var(--greystone-gray); }
+.btn:focus-visible, button:focus-visible { outline: 3px solid var(--greystone-gray); }
+
+.btn-primary { background: var(--marist-red); color: #fff; }
+.btn-outline {
+  background: transparent;
+  border: 2px solid var(--marist-red);
+  color: var(--marist-red);
+}
+.btn-outline:hover { background: var(--marist-red); color: #fff; }
