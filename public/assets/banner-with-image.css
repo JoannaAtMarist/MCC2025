@@ -3,6 +3,7 @@
   position: relative;
   width: 100%;
   overflow: hidden;
+  height: 270px;
 }
 .site-banner .banner-image img {
   width: 100%;
@@ -22,6 +23,12 @@
   );
 }
 
+.banner-image img {
+  width: 100%;
+  height: 150px;       /* adjust to match Symposium style */
+  object-fit: cover;
+  display: block;
+}
 
 
 
