@@ -39,10 +39,12 @@
   align-items: center;
 }
 .site-nav a {
-  margin-right: 1.5rem;
   font-weight: 600;
   color: #fff;
 }
+.site-nav > a,
+.site-nav > .dropdown > a { margin-right: 1.5rem; }
+
 .site-nav a[aria-current="page"] { text-decoration: underline; }
 .site-nav a.disabled {
   pointer-events: none;
@@ -115,4 +117,13 @@
 .skip-link:focus {
   position: static; width: auto; height: auto;
   padding: .5rem; background: #000; color: #fff;
+}
+
+
+/* Fix dropdown right gutter: remove top-nav margin from menu items */
+.site-nav .dropdown-menu a {
+  display: block;
+  margin-right: 0;        /* override .site-nav a { margin-right: 1.5rem } */
+  width: 100%;
+  box-sizing: border-box; /* make hover bg span full width */
 }
