@@ -29,7 +29,7 @@
   <!-- Row 1: Logo bar -->
   <div class="logo-bar">
     <div class="container">
-      <img src="/MCC2025/assets/images/marist-logo.jpg" alt="Marist University logo" class="logo-img">
+      <img src="{{ '/assets/images/marist-logo.jpg' | url }}" alt="Marist University logo" class="logo-img">
     </div>
   </div>
 
@@ -73,6 +73,32 @@
   <main id="content" class="container">
     {{ content | linkTechMeet | linkNewEra | safe }}
   </main>
+
+
+  <!-- Organizer (ECC separated) -->
+  <section class="organizer container">
+    <h2>Organized By</h2>
+    <div class="organizer-logo">
+      <a href="{{ sponsors.ecc.url }}" target="_blank" rel="noopener noreferrer">
+        <img src="{{ sponsors.ecc.logo }}" alt="Enterprise Computing Community Logo">
+      </a>
+    </div>
+  </section>
+
+  <!-- Partner Organizations -->
+  <section class="sponsors container">
+    <h2>Partner Organizations</h2>
+    <div class="sponsor-logos">
+      {% for key, sponsor in sponsors %}
+        {% if key != "ecc" %}
+          <a href="{{ sponsor.url }}" target="_blank" rel="noopener noreferrer">
+            <img src="{{ sponsor.logo }}" alt="{{ key | capitalize }} Logo">
+          </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+
 
   <footer class="site-footer">
     <div class="container">
