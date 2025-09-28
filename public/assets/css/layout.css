@@ -18,6 +18,48 @@
 }
 .logo-img { height: 50px; }
 
+/* Base: hide hamburger */
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Tablet: vertical nav (always visible) */
+@media (max-width: 768px) {
+  .site-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .site-nav > a,
+  .site-nav > .dropdown > a {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+/* Phone: hamburger menu */
+@media (max-width: 480px) {
+  .nav-toggle {
+    display: block;         /* show hamburger */
+  }
+  .site-nav {
+    display: none;          /* hide menu by default */
+    flex-direction: column;
+    gap: 0.5rem;
+    background: var(--marist-red);
+    padding: 0.5rem 1rem;
+  }
+  .site-nav.open {
+    display: flex;          /* show when toggled */
+  }
+}
+
 /* Top nav */
 .top-nav a {
   margin-left: 1.5rem;
