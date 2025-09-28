@@ -135,11 +135,15 @@
 /* Base: hide hamburger */
 .nav-toggle {
   display: none;
-  background: none;
+  background: none;         /* no red background box */
   border: none;
   font-size: 1.5rem;
-  color: #fff;
+  color: var(--white);      /* white icon matches header */
   cursor: pointer;
+}
+.nav-toggle:hover {
+  color: var(--reynard-red);   /* lighter red */
+  background: none;            /* prevent grey background from branding.css */
 }
 
 /* Tablet: vertical nav (always visible) */
@@ -148,7 +152,7 @@
     max-width: 100%;
     padding: 0 1rem;
   }
-  
+
   .site-nav {
     flex-direction: column;
     align-items: flex-start;
