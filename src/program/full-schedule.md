@@ -21,7 +21,7 @@ permalink: /program/full-schedule/index.html
     <div class="nested">
       <div class="time">12:00 – 1:00 PM</div>
       <div class="title">Keynote: Scott Tunmer, Principal Consultant at New Era Technologies</div>
-      <div class="location"><em>Risk Management: the why behind everything we do in cybersecurity</em></div>
+      <div class="location"><em>Risk Management: the "why" behind everything we do in cybersecurity</em></div>
     </div>
   </div>
 

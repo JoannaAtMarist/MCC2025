@@ -48,7 +48,7 @@ permalink: /index.html
           <img src="/MCC2025/assets/images/keynote-pic.jpg" alt="Keynote Speaker">
         </div>
       </div>
-      <p class="keynote-topic"><em>Risk Management: the why behind everything we do in cybersecurity</em></p>
+      <p class="keynote-topic"><em>Risk Management: the "why" behind everything we do in cybersecurity</em></p>
     </div>
   </div>
 </div>

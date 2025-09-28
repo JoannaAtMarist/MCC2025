@@ -37,7 +37,7 @@ All submissions will be peer reviewed by the conference technical committee, inc
 ## Keynote Luncheon
 - **Limited seating with advance registration**  
 - **Industry Keynote**: Scott Tunmer, Principal Consultant, New Era Technology  
-- **Topic**: *“Risk Management: the why behind everything we do in cybersecurity”*  
+- **Topic**: *“Risk Management: the "why" behind everything we do in cybersecurity”*  
 
 ---
 

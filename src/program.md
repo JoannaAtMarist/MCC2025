@@ -10,7 +10,7 @@ permalink: /program/index.html
 <a href="{{ links.contact_email }}">MaristComputingConf@marist.edu</a>
 </section>
 <br>
-<p><strong>Keynote (12–1 PM):</strong> Scott Tunmer, Principal Consultant at New Era Technologies — <em>Risk Management: the why behind everything we do in cybersecurity</em>.</p>
+<p><strong>Keynote (12–1 PM):</strong> Scott Tunmer, Principal Consultant at New Era Technologies — <em>Risk Management: the "why" behind everything we do in cybersecurity</em>.</p>
 
 <h3>Marist Computing Conference (11:30 AM – 3:00 PM)</h3>
 <div class="schedule">
