@@ -18,7 +18,7 @@ permalink: /program/keynote/index.html
       <p><em>Scott has over 40 years IT experience, including software development, project management, and information security.  He is responsible for service delivery of Governance, Risk & Compliance (GRC) and virtual CISO engagements.</em></p>
 
       <h3>Title of Presentation</h3>
-      <p><em>To be announced</em></p>
+      <p><em>Risk Management: the why behind everything we do in cybersecurity</em></p>
 
       <h3>Abstract</h3>
       <p><em>Details to be announced</em></p>

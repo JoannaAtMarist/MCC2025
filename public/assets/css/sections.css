@@ -43,20 +43,46 @@
   max-width: 900px;
   padding: 2rem;
   box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  
 }
 .keynote-inner {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  gap: .5rem;
-  justify-content: space-between;
+  align-items: flex-start;   /* aligns photo with top of text */
+  gap: 1.5rem;               /* more space than .5rem for balance */
+  justify-content: flex-start;  /* no more pushing apart */
 }
 .keynote-image img {
   max-width: 320px;
   border-radius: 0.5rem;
 }
-.keynote-content { flex: 1; }
-.keynote-content h2 { color: var(--marist-red); }
+.keynote-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: left; 
+}
+.keynote-content .title-block {
+  display: flex;
+  align-items: center;
+  gap: 1rem;                 /* space between text and photo */
+  text-align: left; 
+}
+.title-block p {
+  margin-top: 1rem;   /* small space above */
+  margin-bottom: 1rem; /* small space below */
+  line-height: 2.3;      /* (optional) improves readability */
+}
+.keynote-topic {
+  margin-top: 2rem;          /* pushes topic under name/photo */
+  font-style: italic;
+}
+.keynote-content h2 { color: var(--marist-red); margin-top: 0rem; }
+.keynote-content h3 { margin: 0.5rem 0; }
 .keynote-content p { color: var(--greystone-gray); margin: 0.5rem 0; }
 @media (max-width: 768px) {
   .keynote-inner { flex-direction: column; text-align: center; }

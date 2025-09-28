@@ -34,19 +34,25 @@ permalink: /index.html
   </div>
 </section>
 
-<section class="keynote-card">
+<div class="keynote-card">
   <div class="keynote-inner">
     <div class="keynote-content">
-      <h2>Keynote Speaker</h2>
-      <p><strong>Scott D. Tunmer, CISSP, PMP®, CSSBG</strong><br>
-      Practice Manager, GRC, New Era Technologies</p>
-      <p><em>AI and Cybersecurity for the Enterprise</em></p>
-    </div>
-    <div class="keynote-image">
-      <img src="/MCC2025/assets/images/keynote-pic.jpg" alt="Keynote Speaker">
+    <h2>Keynote Speaker</h2>
+      <div class="title-block">
+        <div>
+          <p><strong>Scott D. Tunmer, CISSP, PMP®, CSSBG</strong><br>
+          Practice Manager, GRC, <span style="color:#c91235;">New Era Technologies</span></p>
+          <h3>Presentation Topic:</h3>
+        </div>
+        <div class="keynote-image">
+          <img src="/MCC2025/assets/images/keynote-pic.jpg" alt="Keynote Speaker">
+        </div>
+      </div>
+      <p class="keynote-topic"><em>Risk Management: the why behind everything we do in cybersecurity</em></p>
     </div>
   </div>
-</section>
+</div>
+
 
 <section class="contact-card">
   <h2>Contact Us</h2>

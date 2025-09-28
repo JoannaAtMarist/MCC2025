@@ -39,7 +39,7 @@ For more information: [MaristComputingConf@marist.edu](mailto:MaristComputingCon
 - **11:00 am** — Check-in begins (3rd Floor Murray Student Center)  
 - **11:30 am – 1:00 pm** — Buffet Lunch with Keynote (12:00 – 1:00 pm)  
   *Scott Tunmer, Principal Consultant, New Era Technologies*  
-  *Topic: AI and Cybersecurity for the Enterprise*  
+  *Topic: Risk Management: the why behind everything we do in cybersecurity*  
   Cabaret, 2nd Floor, Murray Student Center (Limited Seating)  
 - **1:00 pm – 3:00 pm** — Concurrent Technology Speaker Presentations  
   River Rooms SC 3101–3105, 3rd Floor Murray Student Center  

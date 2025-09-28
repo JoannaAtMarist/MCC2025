@@ -7,13 +7,19 @@
     },
     {
       "time": "11:30 AM – 1:00 PM",
-      "title": "Buffet Lunch + Keynote (Scott Tunmer: AI & Cybersecurity for the Enterprise, 12–1 PM)",
+      "title": "Buffet Lunch + Keynote (Scott Tunmer: Risk Management: the why behind everything we do in cybersecurity, 12–1 PM)",
       "location": "Cabaret, 2nd floor"
     },
     {
       "time": "1:00 PM – 3:00 PM",
       "title": "Concurrent Technology Speaker Presentations",
-      "location": "River Rooms (SC 3101–3105)"
+      "location": "River Rooms (SC 3101–3105)",
+      "speaker1": "Speaker TBD",
+      "topic1:": "Topic TBD",
+      "speaker2": "Speaker TBD",
+      "topic2:": "Topic TBD",
+      "speaker3": "Speaker TBD",
+      "topic3:": "Topic TBD"
     }
   ],
   "techmeet_blocks": [
@@ -29,12 +35,12 @@
     },
     {
       "time": "5:00 PM – 6:00 PM",
-      "title": "Networking (refreshments, pizza & finger foods)",
+      "title": "Networking with Refreshments",
       "location": "3rd floor"
     },
     {
       "time": "6:00 PM – 6:30 PM",
-      "title": "Awards Ceremony (MCC + TechMeet Student Posters)",
+      "title": "Awards Ceremony for MCC and MHV TechMeet Student Posters",
       "location": "River Rooms (SC 3102–3105)"
     }
   ]

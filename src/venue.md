@@ -19,6 +19,6 @@ permalink: /venue/index.html
   </div>
   <div class="card">
     <h3>Parking</h3>
-    <p>Vistor parking areas to be announced.</p>
+    <p>Visitor parking areas to be announced.</p>
   </div>
 </div>
