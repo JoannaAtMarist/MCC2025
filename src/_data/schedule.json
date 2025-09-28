@@ -1,4 +1,13 @@
 {
+    "keynote": {
+    "speaker": "Scott D. Tunmer",
+    "title": "Risk Management: The 'why' behind everything we do in cybersecurity.",
+    "abstract": "",
+    "organization": "Principal Consultant, New Era Technologies",
+    "time": "12:00 PM – 1:00 PM",
+    "date": "Friday, November 7, 2025",
+    "location": "Cabaret, 2nd floor, Murray Student Center"
+  },
   "mcc_blocks": [
     {
       "time": "11:00 AM",
@@ -7,7 +16,7 @@
     },
     {
       "time": "11:30 AM – 1:00 PM",
-      "title": "Buffet Lunch + Keynote (Scott Tunmer: Risk Management: The \"why\" behind everything we do in cybersecurity., 12–1 PM)",
+      "title": "Buffet Lunch + Keynote (Scott Tunmer: Risk Management: The 'why' behind everything we do in cybersecurity., 12–1 PM)",
       "location": "Cabaret, 2nd floor"
     },
     {

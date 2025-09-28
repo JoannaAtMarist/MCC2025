@@ -45,7 +45,7 @@ permalink: /index.html
           <h3>Presentation Topic:</h3>
         </div>
         <div class="keynote-image">
-          <img src="/MCC2025/assets/images/keynote-pic.jpg" alt="Keynote Speaker">
+          <img src="/MCC2025/assets/images/keynote-pic.jpg" alt="Portrait of Scott D. Tunmer, keynote speaker">
         </div>
       </div>
       <p class="keynote-topic"><em>Risk Management: The "why" behind everything we do in cybersecurity.</em></p>

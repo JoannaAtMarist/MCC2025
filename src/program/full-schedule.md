@@ -14,15 +14,10 @@ permalink: /program/full-schedule/index.html
     <div class="location">Murray Student Center</div>
   </div>
 
-  <div class="schedule-item">
-    <div class="time">11:30 AM – 1:00 PM</div>
-    <div class="title">Buffet Lunch</div>
-    <div class="location">Cabaret, 2nd floor</div>
-    <div class="nested">
-      <div class="time">12:00 – 1:00 PM</div>
-      <div class="title">Keynote: Scott Tunmer, Principal Consultant, at New Era Technologies</div>
-      <div class="location"><em>Risk Management: The "why" behind everything we do in cybersecurity.</em></div>
-    </div>
+  <div class="nested">
+    <div class="time">{{ schedule.keynote.time }}</div>
+    <div class="title">Keynote: {{ schedule.keynote.speaker }}, {{ schedule.keynote.organization }}</div>
+    <div class="location"><em>{{ schedule.keynote.title }}</em></div>
   </div>
 
   <div class="schedule-item">
@@ -37,5 +32,6 @@ permalink: /program/full-schedule/index.html
       </ul>
     </div>
   </div>
+
 </div>
 

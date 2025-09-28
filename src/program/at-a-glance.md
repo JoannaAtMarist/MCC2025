@@ -4,7 +4,10 @@ layout: layouts/base.njk
 ---
 
 <h2>Day At-A-Glance</h2>
-<p><strong>Keynote (12–1 PM):</strong> Scott Tunmer, Principal Consultant, at New Era Technologies — <em>Risk Management: The "why" behind everything we do in cybersecurity.</em></p>
+<p><strong>Keynote ({{ schedule.keynote.time }}):</strong> 
+{{ schedule.keynote.speaker }}, {{ schedule.keynote.organization }} — 
+<em>{{ schedule.keynote.title }}</em></p>
+
 
 <h3>Marist Computing Conference (11:30 AM – 3:00 PM)</h3>
 <div class="schedule">
@@ -20,7 +23,7 @@ layout: layouts/base.njk
 <p>
 <h5>Following the Marist Computing Conference sessions there will be a student poster competition.<br> 
 See details below.<br>
-If you are interested in attending the event below, please remember to purchase ticket 3.</h5>
+If you are interested in attending the event below, please remember to purchase ticket 3 (at no cost).</h5>
 <h3>Mid-Hudson Valley TechMeet (3:30 PM – 6:30 PM)</h3>
 </p>
 

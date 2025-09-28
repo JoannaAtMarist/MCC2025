@@ -25,7 +25,7 @@
 .save-the-date-content { flex: 1; }
 .save-the-date h2 { color: var(--marist-red); }
 .save-the-date p { color: var(--greystone-gray); margin: 0.5rem 0; }
-.save-the-date strong { color: #000; }
+.save-the-date strong { color: var(--greystone-gray); }
 .save-the-date .techmeet { color: var(--marist-red); }
 .save-the-date .btn { margin-top: 1rem; }
 

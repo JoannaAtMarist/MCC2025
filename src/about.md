@@ -27,5 +27,9 @@ This year, we have also partnered with the student research poster competition
 Our goals of technical community building and academic/industry partnership remain unchanged, and we look forward to welcoming returning and new participants to campus for the 2025 Marist Computing Conference.
 </p>
 
-<h3>Contact</h3>
-<p>Email: <a href="mailto:MaristComputingConf@marist.edu">MaristComputingConf@marist.edu</a></p>
+<div class="contact-card">
+  <h2>Contact Us</h2>
+  <p>Questions about the conference? Reach us at:</p>
+  <p><a href="{{ links.contact_email }}">MaristComputingConf@marist.edu</a></p>
+</div>
+

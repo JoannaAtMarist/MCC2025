@@ -65,7 +65,7 @@ a:hover, a:focus { text-decoration: underline; }
   border-radius: 4px;
   cursor: pointer;
 }
-.btn:hover, button:hover { background: var(--greystone-gray); }
+.btn:hover, button:hover { background: var(--reynard-red); }
 .btn:focus-visible, button:focus-visible { outline: 3px solid var(--greystone-gray); }
 
 .btn-primary { background: var(--marist-red); color: #fff; }
