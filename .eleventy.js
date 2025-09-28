@@ -29,7 +29,7 @@ export default function (eleventyConfig) {
 
   return {
     dir: {
-      input: "src",        // your main content lives in /src
+      input: "src",
       includes: "_includes",
       data: "_data",
       output: "_site"
@@ -37,7 +37,7 @@ export default function (eleventyConfig) {
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk",
-    pathPrefix: "/MCC2025/"   // url adds /MCC2025/ on GitHub Pages
+    pathPrefix: "/MCC2025/"
   };
 }
 

@@ -1,29 +1,70 @@
-# MCC Static Site (Eleventy Starter)
+# Marist Computing Conference (MCC 2025) Website
 
-This is a minimal Eleventy (11ty) starter for the Marist Computing Conference site.
+This repository contains the website for the **Marist Computing Conference (MCC 2025)**, collocated with the **2nd Mid-Hudson Valley TechMeet**.  
 
-## Quick start
-```bash
-npm install
-npm run dev      # local preview at http://localhost:8080
-npm run build    # outputs to _site/
+- **Conference Date:** Friday, November 7, 2025  
+- **Location:** Marist University, Poughkeepsie, NY  
+- **Website:** [https://maristcomputingconf.org](#)   
+
+---
+
+## About the Site
+
+This site is built with **[Eleventy (11ty)](https://www.11ty.dev/)**, a static site generator.  
+It follows the **Marist University Brand Guidelines** (colors, typography, logo usage) and includes schedule, venue, registration, and call for papers.  
+
+**Features:**
+- Dynamic schedules powered by JSON (`schedule.json`)  
+- Collocated events: MCC + Mid-Hudson Valley TechMeet  
+- Keynote, program, venue, and registration pages  
+- Mobile-friendly responsive layout  
+- Accessible styles aligned with WCAG 2.0  
+
+---
+
+## Project Structure
+
+```text
+.
+├── src/               # Site source files
+│   ├── *.md           # Content pages (About, Program, Keynote, etc.)
+│   ├── _data/         # JSON data (schedule.json, site.json, links.json)
+│   └── layouts/       # Base templates (base.njk, includes)
+├── styles/            # CSS (branding.css, layout.css, sections.css)
+├── assets/            # Logos, images
+└── .eleventy.js       # Eleventy config
 ```
 
-## Where to edit
-- Page content: `src/*.md`
-- Schedule data: `src/_data/schedule.json`
-- External links (HomeTown, IBM poster site, Map): `src/_data/links.json`
-- Base layout / nav: `src/_includes/layouts/base.njk`
-- Styles: `public/assets/styles.css` (served as `/assets/styles.css`)
+---
 
-## Deploying to GitHub Pages (gh-pages branch)
-1. Create a repo and push this project.
-2. Ensure GitHub Pages is set to deploy from the `gh-pages` branch (Settings → Pages).
-3. GitHub Action in `.github/workflows/deploy.yml` will build Eleventy and publish to `gh-pages` on every push to `main`.
+## Development
 
-## Notes
-- The site is purely static. Buttons link out to the IBM TechMeet site, HomeTown registration, and Marist map.
-- Edit `src/_data/links.json` to update those URLs.
-# test trigger
+To run the site locally:
 
-.
+```bash
+npm install
+npx @11ty/eleventy --serve
+```
+
+Site will be available at `http://localhost:8080/`.
+
+---
+
+## Contact
+
+For questions about the conference:  
+📩 [MaristComputingConf@marist.edu](mailto:MaristComputingConf@marist.edu)
+
+---
+
+## Credits & Sponsorship
+
+This site is maintained by Marist College faculty, staff, and students.  
+Sponsored by industry and academic partners including ACM, ECC, IBM, IEEE, New Era Technologies, Sentricus, and more.  
+
+---
+
+## License
+
+© 2025 Marist University.  
+This repository is for conference communications only. Please do not repurpose without permission.
