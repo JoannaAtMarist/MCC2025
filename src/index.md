@@ -40,8 +40,8 @@ permalink: /index.html
     <h2>Keynote Speaker</h2>
       <div class="title-block">
         <div>
-          <p><strong>Scott D. Tunmer, CISSP, PMP®, CSSBG</strong><br>
-          Practice Manager, GRC, <span style="color:#c91235;">New Era Technologies</span></p>
+          <p><strong>Scott D. Tunmer</strong><br>
+          Principal Consultant, <span style="color:#c91235;">New Era Technologies</span></p>
           <h3>Presentation Topic:</h3>
         </div>
         <div class="keynote-image">
