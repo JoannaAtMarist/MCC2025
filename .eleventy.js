@@ -26,6 +26,14 @@ export default function (eleventyConfig) {
     );
   });
 
+  // Auto-link "Register Here" mentions
+  eleventyConfig.addFilter("linkRegister", function (content) {
+    const url = this.ctx.hometown_url || "https://tinyurl.com/register-mcc";
+    return content.replace(
+      /\b(Register Here)\b/g,
+      `<a href="${url}" target="_blank" rel="noopener noreferrer">$1</a>`
+    );
+  });
 
   return {
     dir: {

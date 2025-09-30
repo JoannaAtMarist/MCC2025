@@ -6,15 +6,8 @@ permalink: /registration/
 
 # Registration Information  
 
-
 <p style="text-align:left; margin-top:2em;">
-  <h3>Opens October 1st</h3> 
-  <a href="https://www.marist.edu" 
-     class="button" 
-     style="background-color:#c91235; color:#fff; padding:12px 24px; text-decoration:none; border-radius:8px; font-weight:bold; font-size:1.1em;">
-    Register Here
-  </a>
-
+  {{ "Register Here" | linkRegister | safe }}
 </p>
 
 
@@ -87,12 +80,9 @@ Topics include:
 *To attend both the Keynote Lunch and Technical Talks, select both Ticket 1 and Ticket 2.*
 
 <p style="text-align:center; margin-top:2em;">
-  <a href="https://www.marist.edu" 
-     class="button" 
-     style="background-color:#c91235; color:#fff; padding:12px 24px; text-decoration:none; border-radius:8px; font-weight:bold; font-size:1.1em;">
-    Register Here
-  </a>
+  {{ "Register Here" | linkRegister | safe }}
 </p>
+
 <br>  
 
 ---
