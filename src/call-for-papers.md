@@ -29,22 +29,15 @@ All submissions will be peer reviewed by the conference technical committee, inc
 ---
 
 ## Important Dates
-- **Abstracts due**: October 17, 2025  
-- **Submit your abstract** [here.](https://forms.office.com/r/Bw0yh7Qg4S)
+- **Abstracts due:** October 17, 2025  
+- **Acceptance Notification by:** October 31, 2025  
+- **Presentations:** November 7, 2025  
+
+<p style="text-align:center; margin-top:1.5em;">
+  <a class="button" href="https://forms.office.com/r/Bw0yh7Qg4S" target="_blank" rel="noopener">SUBMIT ABSTRACT</a>
+</p>
 
 ---
 
-## Keynote Luncheon
-- **Limited seating with advance registration**  
-- **Industry Keynote**: Scott Tunmer, Principal Consultant,, New Era Technology  
-- **Topic**: *“Risk Management: The "why" behind everything we do in cybersecurity.”*  
-
----
-
-For more information, email [MaristComputingConf@marist.edu](mailto:MaristComputingConf@marist.edu).  
-
----
-
-<small>Location:  
-3399 North Rd,  
-Poughkeepsie, NY 12601</small>
+For more information, email  
+[MaristComputingConf@marist.edu](mailto:MaristComputingConf@marist.edu)

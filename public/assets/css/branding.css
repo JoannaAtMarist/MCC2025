@@ -75,3 +75,28 @@ a:hover, a:focus { text-decoration: underline; }
   color: var(--marist-red);
 }
 .btn-outline:hover { background: var(--marist-red); color: #fff; }
+
+/* Custom buttons for Registration / CFP pages */
+a.button {
+  display: inline-block;
+  background: var(--marist-red);
+  color: var(--white);
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  transition: background 0.2s ease, transform 0.15s ease;
+}
+
+a.button:hover {
+  background: var(--reynard-red);
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+a.button:focus-visible {
+  outline: 3px solid var(--greystone-gray);
+  outline-offset: 2px;
+}

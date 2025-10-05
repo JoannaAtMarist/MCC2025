@@ -4,69 +4,29 @@ title: Registration
 permalink: /registration/
 ---
 
-# Registration Information  
+# Registration
 
-<p style="text-align:left; margin-top:2em;">
-  {{ "Register Here" | linkRegister | safe }}
-</p>
+This page provides instructions on registering for the events happening at Marist University on **Friday, November 7, 2025**:  
+**1st Marist Computing Conference (MCC)** and **2nd Mid-Hudson Valley TechMeet (MHVTM).**
 
+The cost to attend all events is **free**, but you must have a **ticket** to enter.
 
-**Inaugural Marist Computing Conference (MCC)**  
-**and**  
-**2nd Mid-Hudson Valley TechMeet (MHVTM)**  
-**November 7, 2025 — 11:30 am – 6:30 pm**  
-
-**Location:** Marist University, 3399 North Road, Poughkeepsie, NY 12601  
-Murray Student Center — [Campus Map](https://www.marist.edu/about/map)  
-
-Check-in starts at 11:00 am and continues all day for events.
-
----
-
-## General Events Schedule
-
-**1st MCC** (11:30 am – 3:00 pm, plus Awards Ceremony 6:00 – 6:30 pm)  
-*No Cost to Conference Attendees!*  
-For more information: [MaristComputingConf@marist.edu](mailto:MaristComputingConf@marist.edu)
-
-- **11:00 am** — Check-in begins (3rd Floor Murray Student Center)  
-- **11:30 am – 1:00 pm** — Buffet Lunch with Keynote (12:00 – 1:00 pm)  
-  *Scott Tunmer, Principal Consultant,, New Era Technologies*  
-  *Topic: Risk Management: The "why" behind everything we do in cybersecurity.*  
-  Cabaret, 2nd Floor, Murray Student Center (Limited Seating)  
-- **1:00 pm – 3:00 pm** — Concurrent Technology Speaker Presentations  
-  River Rooms SC 3101–3105, 3rd Floor Murray Student Center  
-
-**2nd MHV TechMeet** (3:30 pm – 6:00 pm, plus Awards Ceremony 6:00 – 6:30 pm)  
-*No Cost to Conference Attendees!*  
-For more information: [mhvtechmeet@gmail.com](mailto:mhvtechmeet@gmail.com)  
-Website: [MHV TechMeet 2025](https://mhvtechmeet.wixsite.com/home/mhvtm-2025)
-
-- **3:00 – 3:30 pm** — Student Poster Presenter check-in and set-up (limit 50 posters)  
-- **3:30 – 5:00 pm** — Student Poster Viewing & Judging  
-- **5:00 – 6:00 pm** — Networking Event with Refreshments (HC 3102)  
-- **6:00 – 6:30 pm** — Awards Ceremony for MCC and MHV TechMeet Student Posters  
-
-*Note: If MCC attendees wish to stay for TechMeet activities and/or the Awards Ceremony, please register for both MCC and MHV TechMeet.*
-
----
-
-## Ticket Options (No Cost)
-
-This registration covers **two events** with **up to 3 ticket choices**.  
+The registration covers **two events** with **up to three ticket choices**.  
 Each attendee may select one or more tickets.
 
-### MCC Tickets
+---
+
+## MCC Tickets
 
 **Ticket 1:** *MCC Keynote Speaker & Buffet Lunch*  
-- 11:30 am – 1:00 pm (includes Keynote, does not include technical talks)  
+- 11:30 am – 1:00 pm (includes Keynote; does not include technical talks)  
 - Keynote: *Scott Tunmer, “AI and Cybersecurity for Enterprise”*  
-- Limited seating, advance registration required by **October 27, 2025**.  
-  Reserved ticket required. No walk-ins accepted.
+- Limited seating; advance registration required by **October 27, 2025**  
+- Reserved ticket required — no walk-ins accepted
 
 **Ticket 2:** *MCC Concurrent Technical Talks & Awards Ceremony*  
 - 1:00 – 3:00 pm — Technical talks, panels, and workshops  
-- 6:00 – 6:30 pm — MCC Awards Ceremony  
+- 6:00 – 6:30 pm — MCC & MHV TechMeet Awards Ceremony  
 
 Topics include:  
 - Enterprise Computing & ITS  
@@ -79,11 +39,19 @@ Topics include:
 
 *To attend both the Keynote Lunch and Technical Talks, select both Ticket 1 and Ticket 2.*
 
-<p style="text-align:center; margin-top:2em;">
-  {{ "Register Here" | linkRegister | safe }}
-</p>
+---
 
-<br>  
+## MHV Tickets
+
+**Ticket 3:** *2nd Mid-Hudson Valley TechMeet*  
+- 3:30 – 5:00 pm — Poster Session  
+- 5:00 – 6:00 pm — Networking Opportunity  
+- 6:00 – 6:30 pm — MCC & MHV TechMeet Awards Ceremony  
+
+Students participating in TechMeet must select Ticket 3 but are encouraged to attend earlier events depending on their schedule flexibility.
 
 ---
 
+<p style="text-align:center; margin-top:2em;">
+  <a class="button" href="https://tinyurl.com/register-mcc" target="_blank" rel="noopener">REGISTER</a>
+</p>

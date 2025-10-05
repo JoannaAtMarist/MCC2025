@@ -25,7 +25,7 @@
   font-weight: 600;
   text-decoration: none;
 }
-.top-nav a:hover { text-decoration: underline; }
+.top-nav a:hover { text-decoration: none; opacity: 0.8; }
 
 /* Site header & nav */
 .site-header {
@@ -45,7 +45,11 @@
 .site-nav > a,
 .site-nav > .dropdown > a { margin-right: 1.5rem; }
 
-.site-nav a[aria-current="page"] { text-decoration: underline; }
+.site-nav a[aria-current="page"] {
+  font-weight: 700;
+  border-bottom: 2px solid var(--white); /* visible on red header */
+  padding-bottom: 2px;
+}
 .site-nav a.disabled {
   pointer-events: none;
   color: var(--dark-gray);
@@ -181,4 +185,11 @@
   .site-nav.open {
     display: flex;          /* show when toggled */
   }
+}
+
+
+/* Link line removal override branding */
+.top-nav a:hover,
+.site-nav a:hover {
+  text-decoration: none !important;
 }
