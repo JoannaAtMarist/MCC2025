@@ -12,6 +12,8 @@ permalink: /call-for-papers/
 
 Be inspired to do more at the 2025 Marist Computing Conference!  
 
+Professionals from industry, not-for-profit and government entities, and college/university faculty, staff and students are invited to submit abstracts for a talk, panel or workshop.  
+
 Marist is pleased to announce the call for presentations at the 2025 MCC.  
 Interested authors should submit a **50-word abstract** for a **15–20 minute presentation**.  
 All submissions will be peer reviewed by the conference technical committee, including representation from Google, IBM, RPI, Sentricus, and more.  
