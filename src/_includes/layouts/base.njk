@@ -34,7 +34,14 @@
   <nav class="site-header">
     <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
     <div class="container site-nav">
-      <a href="{{ '/' | url }}">Home</a>
+
+    <!-- Left: MCC logo -->
+    <a href="/" class="nav-logo">
+      <img
+        src="{{ '/assets/images/MCC-Logo-notext-2025.png' | url }}"
+        alt="Marist Computing Conference Logo"
+        style="height:60px; vertical-align:middle;">
+    </a>
 
       <div class="dropdown">
         <a href="{{ '/program/' | url }}">Program</a>

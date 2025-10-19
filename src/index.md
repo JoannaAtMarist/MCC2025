@@ -5,14 +5,27 @@ permalink: /index.html
 ---
 
 
-<section class="hero">
-  <h1>Marist Computing Conference</h1>
-  <h2>Hosted at Marist University</h2>
-  <h3>Friday, November 7, 2025</h3>
-  <h3>Murray Student Center, 3399 North Rd, Poughkeepsie, NY 12601</h3>  
-  
-  <p>Be inspired to do more at the Marist Computing Conference. Talks, keynote lunch, networking — and a collocated student poster session (TechMeet).</p>
+<section class="hero hero-flex">
+  <div class="hero-logo">
+    <img 
+      src="{{ '/assets/images/MCC-Logo2025.png' | url }}" 
+      alt="Marist Computing Conference 2025 Logo"
+      class="mcc-hero-logo">
+    <p class="mcc-hero-tagline">Be Inspired to Do More</p>
+  </div>
+
+  <div class="hero-text">
+    <h1>Marist Computing Conference</h1>
+    <h2>Hosted at Marist University</h2>
+    <h3>Friday, November 7, 2025</h3>
+    <h3>Murray Student Center, 3399 North Rd, Poughkeepsie, NY 12601</h3>  
+    <p>
+      Be inspired to do more at the Marist Computing Conference. Talks, keynote lunch, 
+      networking — and a collocated student poster session (<a href="/techmeet/">TechMeet</a>).
+    </p>
+  </div>
 </section>
+
 
 <section class="save-the-date">
   <div class="save-the-date-inner">
