@@ -1,0 +1,122 @@
+
+/* ======================================
+   Tablet + Phone Breakpoints (tweaked)
+   ====================================== */
+@media (max-width: 900px) {
+  .nav-toggle {
+    display: block; /* show hamburger */
+  }
+
+  .site-nav {
+    display: none; /* hidden until opened */
+    flex-direction: column;
+    align-items: flex-start;
+    background: var(--marist-red);
+    padding: 1rem;
+    width: 100%;
+    position: relative;
+  }
+
+  .site-nav.open {
+    display: flex; /* toggled open */
+  }
+
+  .site-nav a,
+  .site-nav .dropdown > a {
+    margin: 0.5rem 0;
+    width: 100%;
+  }
+
+  /* Dropdowns expand inline instead of hover */
+  .site-nav .dropdown:hover .dropdown-menu,
+  .site-nav .dropdown-menu {
+    position: static;
+    display: none;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+  }
+
+  .site-nav .dropdown.open .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .dropdown > a::after {
+    content: "";
+  }
+}
+
+/* Prevent “tiny” scaling or double zoom on iPhones */
+@media screen and (max-device-width: 480px) {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+}
+
+/* ===============================
+   Responsive Fixes (Balanced)
+   =============================== */
+
+/* Prevent horizontal scroll on phones */
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Restore normal container width on desktop */
+@media (min-width: 901px) {
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+}
+
+/* Modern mobile/tablet behavior */
+@media (max-width: 900px) {
+  .nav-toggle {
+    display: block !important;
+    position: absolute;
+    right: 1rem;
+    top: 0.8rem;
+    z-index: 2000;
+  }
+
+  .site-nav {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    background: var(--marist-red);
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .site-nav.open {
+    display: flex;
+  }
+
+  .site-nav a,
+  .site-nav .dropdown > a {
+    margin: 0.5rem 0;
+    width: 100%;
+  }
+
+  /* Flatten dropdowns for small screens */
+  .site-nav .dropdown:hover .dropdown-menu,
+  .site-nav .dropdown-menu {
+    position: static;
+    display: none;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+  }
+
+  .site-nav .dropdown.open .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+}

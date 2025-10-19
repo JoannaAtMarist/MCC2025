@@ -4,13 +4,16 @@
 <head>
   <base href="{{ '/' | url }}">
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
   <title>{{ title or "Marist Computing Conference" }}</title>
 
   <!-- Styles -->
   <link rel="stylesheet" href="{{ '/assets/css/layout.css' | url }}">
   <link rel="stylesheet" href="{{ '/assets/css/sections.css' | url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/mobile.css' | url }}">
   <link rel="stylesheet" href="{{ '/assets/css/branding.css' | url }}">
+
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Source+Serif+4:wght@400;600&display=swap"
     rel="stylesheet">
@@ -35,13 +38,11 @@
     <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
     <div class="container site-nav">
 
-    <!-- Left: MCC logo -->
-    <a href="/" class="nav-logo">
-      <img
-        src="{{ '/assets/images/MCC-Logo-notext-2025.png' | url }}"
-        alt="Marist Computing Conference Logo"
-        style="height:60px; vertical-align:middle;">
-    </a>
+      <!-- Left: MCC logo -->
+      <a href="/" class="nav-logo">
+        <img src="{{ '/assets/images/MCC-Logo-notext-2025.png' | url }}" alt="Marist Computing Conference Logo"
+          style="height:60px; vertical-align:middle;">
+      </a>
 
       <div class="dropdown">
         <a href="{{ '/program/' | url }}">Program</a>
