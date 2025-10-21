@@ -23,6 +23,7 @@ permalink: /index.html
       Be inspired to do more at the Marist Computing Conference. Talks, keynote lunch, 
       networking — and a collocated student poster session (<a href="/techmeet/">TechMeet</a>).
     </p>
+    <p><i>The Call for Papers is closed.</i></p>
   </div>
 </section>
 
