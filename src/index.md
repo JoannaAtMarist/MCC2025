@@ -8,7 +8,7 @@ permalink: /index.html
 <section class="hero hero-flex">
   <div class="hero-logo">
     <img 
-      src="{{ '/assets/images/MCC-Logo2025.png' | url }}" 
+      src="{{ '/assets/images/MCCLogo.png' | url }}" 
       alt="Marist Computing Conference 2025 Logo"
       class="mcc-hero-logo">
     <p class="mcc-hero-tagline">Be Inspired to Do More</p>
