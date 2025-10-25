@@ -1,5 +1,5 @@
 {
-    "keynote": {
+  "keynote": {
     "speaker": "Scott D. Tunmer",
     "title": "Risk Management: The 'why' behind everything we do in cybersecurity.",
     "abstract": "",
@@ -12,17 +12,83 @@
     {
       "time": "11:00 AM",
       "title": "Check-in opens (continues all day)",
-      "location": "Murray Student Center"
+      "location": "1st floor Murray Student Center, Cabaret Room"
     },
     {
-      "time": "11:30 AM – 1:00 PM",
-      "title": "Buffet Lunch + Keynote (Scott Tunmer: Risk Management: The 'why' behind everything we do in cybersecurity., 12–1 PM)",
-      "location": "Cabaret, 2nd floor"
+      "time": "11:45 AM – 12:00 PM",
+      "title": "Opening Remarks - Dr. Ron Buckmire, Dean, School of Computer Science and Mathematics",
+      "location": "1st floor Murray Student Center, Cabaret Room"
+    },
+    {
+      "time": "12:00 PM – 1:00 PM",
+      "title": "Buffet Lunch + Keynote - Scott Tunmer: Risk Management: The 'why' behind everything we do in cybersecurity.",
+      "location": "1st floor Murray Student Center, Cabaret Room"
     },
     {
       "time": "1:00 PM – 3:00 PM",
       "title": "Concurrent Technology Speaker Presentations",
-      "location": "River Rooms (SC 3101–3105)"
+      "location": "River Rooms (SC 3101–3105)",
+      "subsessions": [
+        {
+          "time": "1:00 PM – 1:15 PM",
+          "sessions": [
+            { "room": "SC3101", "speaker": "Nicholas Olivo, New York City Cyber Command", "title": "Overview of NY City Cyber Command" },
+            { "room": "SC3103", "speaker": "Jessica Doherty, Broadcom", "title": "Quantum computing threats to cryptographic foundations" },
+            { "room": "SC3104", "speaker": "Anthony Giorgio, IBM", "title": "IBM Z Open Automation Utilities" },
+            { "room": "SC3105", "speaker": "Dinesh Verma, Donna Dillenberger, and Petr Novotny, IBM", "title": "Generative AI for enhancing societal polls" }
+          ]
+        },
+        { "time": "1:15 PM – 1:20 PM", "title": "Break" },
+        {
+          "time": "1:20 PM – 1:35 PM",
+          "sessions": [
+            { "room": "SC3101", "speaker": "Bob Meindel, Cap Gemini", "title": "Cybersecurity Frontiers and Challenges" },
+            { "room": "SC3103", "speaker": "Malick Ndiaye (Marist University), Augusto Gonzanez-Bonorino (University of Arizona), and Casimer DeCusatis (Marist University)", "title": "Quantum Computing Solutions for the time-varying Linear Quadratic Regulator" },
+            { "room": "SC3104", "speaker": "Bhupinder Bhullar, Swiss Vault", "title": "VaultFS: An Innovative Data Storage Solution" },
+            { "room": "SC3105", "speaker": "Eitel Lauria, Marist University", "title": "Machine learning evaluation of part-time instructors in first-year college students" }
+          ]
+        },
+        { "time": "1:35 PM – 1:40 PM", "title": "Break" },
+        {
+          "time": "1:40 PM – 1:55 PM",
+          "sessions": [
+            { "room": "SC3101", "speaker": "Jeremy Schiefer, AWS", "title": "Revolutionizing Security Ops with Generative AI: From Findings to Intelligent Runbooks" },
+            { "room": "SC3103", "speaker": "Cameron Cogburn (RPI), Rian Dickman, and Casimer DeCusatis (Marist University)", "title": "Quantum algorithms for the mitigation of DDoS attacks" },
+            { "room": "SC3104", "speaker": "Bhupinder Bhullar, Swiss Vault", "title": "Shingled Magnetic Drives (SMRs) and their need for data storage to support AI Applications" },
+            { "room": "SC3105", "speaker": "Michael Melore, IBM", "title": "New AI/Deep Fakes and Quantum Computing Risk and Security" }
+          ]
+        },
+        { "time": "1:55 PM – 2:05 PM", "title": "Coffee Break (10 minutes)" },
+        {
+          "time": "2:05 PM – 2:20 PM",
+          "sessions": [
+            { "room": "SC3101", "speaker": "Emiliano Ayara, Angelie Gabriel, Simon Grabbe, Royal Kozlowski, and Luiz Ramirez, Bergen Community College", "title": "Video Games in College Course Development Change Matters: An Educational Study Tool" },
+            { "room": "SC3103", "speaker": "Junior Gonzalez, Winaldo Walker, Cedric Green, and Aparicio Carranza, Vaughn College of Aeronautics & Technology", "title": "Fortifying IoT Ecosystems: A Hybrid Security Framework with Blockchain and Artificial Intelligence" },
+            { "room": "SC3104", "speaker": "Phaelan Koock, Pyxcloud and Sentricus", "title": "Portable, Agnostic Multi-Cloud Security Operations" },
+            { "room": "SC3105", "speaker": "Galina Ford, IBM", "title": "Monitoring AI models in IBM Z/OS" }
+          ]
+        },
+        { "time": "2:20 PM – 2:25 PM", "title": "Break" },
+        {
+          "time": "2:25 PM – 2:40 PM",
+          "sessions": [
+            { "room": "SC3101", "speaker": "Carolyn Sher-DeCusatis, Western Governors University", "title": "Using AI Enhanced Presentation Tools for More Lively Lectures" },
+            { "room": "SC3103", "speaker": "Bowu Zhang, Marist University", "title": "Partially Homomorphic Encryption for the Internet of Things" },
+            { "room": "SC3104", "speaker": "Paul Bergeron and Sandhya Aneja, Marist University", "title": "GRU-Based Learning for the Identification of Congestion Protocols in TCP Traffic" },
+            { "room": "SC3105", "speaker": "Jayden Ferguson, Baylor", "title": "Algebraic Geometry Models for Neural Networks" }
+          ]
+        },
+        { "time": "2:40 PM – 2:45 PM", "title": "Break" },
+        {
+          "time": "2:45 PM – 3:00 PM",
+          "sessions": [
+            { "room": "SC3101", "speaker": "Adam Rahman, IBM", "title": "Transform Mainframe Testing with Open Source Tools" },
+            { "room": "SC3103", "speaker": "Cory Davis, Mohamed Kantako, Mohammed Imad, and Aparicio Carranza, New York City College of Technology (CUNY)", "title": "Python-Driven Exploitation and Defense of IoT Devices" },
+            { "room": "SC3104", "speaker": "Harrison Carranza, Bronx Community College", "title": "Penetration Testing with WireShark, John the Ripper, and Social Engineering Toolset (SET)" },
+            { "room": "SC3105", "speaker": "Seth Jacobowitz, Tachiai AI", "title": "The Hidden Functions of Sycophancy" }
+          ]
+        }
+      ]
     }
   ],
   "techmeet_blocks": [

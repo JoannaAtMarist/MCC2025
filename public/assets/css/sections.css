@@ -194,3 +194,114 @@
   filter: grayscale(0%);
 }
 
+
+/* ===============================
+   Conference Schedule Styling
+   =============================== */
+
+.schedule {
+  margin: 2rem 0;
+  border-top: 2px solid var(--marist-red);
+}
+
+.schedule-item {
+  padding: 1rem 0;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.schedule-item .time {
+  font-weight: 700;
+  color: var(--marist-red);
+  font-size: 1.05rem;
+}
+
+.schedule-item .title {
+  font-size: 1.1rem;
+  margin-top: 0.25rem;
+}
+
+.schedule-item .location {
+  color: var(--dark-gray);
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
+
+/* Subsessions (nested concurrent talks) */
+.subsessions {
+  margin-top: 0.75rem;
+  padding-left: 1.5rem;
+  border-left: 3px solid var(--marist-red);
+}
+
+.sub-time {
+  font-weight: 600;
+  color: var(--greystone-gray);
+  margin: 0.75rem 0 0.25rem;
+}
+
+.session-list {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 1rem;
+  border-left: 2px solid #ddd;
+}
+
+.session-list li {
+  margin: 0.35rem 0;
+  line-height: 1.4;
+}
+
+.session-list li strong {
+  display: inline-block;
+  min-width: 4.5rem;
+  color: var(--marist-red);
+}
+
+.session-list li em {
+  color: var(--greystone-gray);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.talk-title {
+  display: block;
+  color: var(--dark-gray);
+  margin-left: 0.25rem;
+  font-size: 0.95rem;
+}
+
+/* Break / divider slots */
+.break {
+  margin: 0.75rem 0;
+  padding: 0.5rem 0.75rem;
+  background: #f9f9f9;
+  border-left: 3px solid var(--reynard-red);
+  color: var(--greystone-gray);
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+/* Section headers */
+.schedule h2,
+.schedule h3 {
+  color: var(--marist-red);
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.25rem;
+  margin-top: 2rem;
+}
+
+/* Responsive cleanup */
+@media (max-width: 600px) {
+  .subsessions {
+    border-left: none;
+    padding-left: 0.5rem;
+  }
+  .session-list {
+    border-left: none;
+    padding-left: 0.75rem;
+  }
+  .session-list li strong {
+    min-width: auto;
+    display: block;
+  }
+}
