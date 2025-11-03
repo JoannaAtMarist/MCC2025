@@ -1,33 +1,33 @@
 {
   "keynote": {
-    "speaker": "Scott D. Tunmer",
-    "title": "Risk Management: The 'why' behind everything we do in cybersecurity.",
+    "speaker": "Scott Tunmer",
+    "title": "Risk Management: The Why Behind Everything We Do in Cybersecurity",
     "abstract": "",
     "organization": "Principal Consultant, New Era Technologies",
     "time": "12:00 PM – 1:00 PM",
     "date": "Friday, November 7, 2025",
-    "location": "Cabaret, 2nd floor, Murray Student Center"
+    "location": "Cabaret, 2nd Floor, Murray Student Center"
   },
   "mcc_blocks": [
     {
       "time": "11:00 AM",
       "title": "Check-in opens (continues all day)",
-      "location": "3rd floor Murray Student Center"
+      "location": "1st Floor Murray Student Center"
     },
     {
       "time": "11:30 AM – 12:45 PM",
       "title": "Keynote Speaker and Buffet Luncheon",
-      "location": "2nd floor Murray Student Center, Cabaret Room"
+      "location": "2nd Floor Murray Student Center, Cabaret Room"
     },
     {
       "time": "11:45 AM – 12:00 PM",
       "title": "Opening Remarks - Dr. Ron Buckmire, Dean, School of Computer Science and Mathematics",
-      "location": "2nd floor Murray Student Center, Cabaret Room"
+      "location": "2nd Floor Murray Student Center, Cabaret Room"
     },
     {
-      "time": "12:00 PM – 1:00 PM",
-      "title": "Buffet Lunch + Keynote - Scott Tunmer: Risk Management: The 'why' behind everything we do in cybersecurity.",
-      "location": "2nd floor Murray Student Center, Cabaret Room"
+      "time": "12:00 PM – 12:45 PM",
+      "title": "Buffet Lunch + Keynote - Scott Tunmer: Risk Management: The Why Behind Everything We Do in Cybersecurity",
+      "location": "2nd Floor Murray Student Center, Cabaret Room"
     },
     {
       "time": "1:00 PM – 3:00 PM",
@@ -68,8 +68,8 @@
           "sessions": [
             {
               "room": "SC3101",
-              "speaker": "Bob Meindel, Cap Gemini",
-              "title": "Cybersecurity Frontiers and Challenges"
+              "speaker": "Dinesh Verma, IBM",
+              "title": "Generative AI for API Management Using Natural Language Interaction Protocol"
             },
             {
               "room": "SC3103",
@@ -78,8 +78,8 @@
             },
             {
               "room": "SC3104",
-              "speaker": "Bhupinder Bhullar, Swiss Vault",
-              "title": "VaultFS: An Innovative Data Storage Solution"
+              "speaker": "Joe Suppers, Swiss Vault",
+              "title": "VaultFS Data Storage Solution and Shingled Magnetic Drives for AI Applications"
             },
             {
               "room": "SC3105",
@@ -97,8 +97,8 @@
           "sessions": [
             {
               "room": "SC3101",
-              "speaker": "Jeremy Schiefer, AWS",
-              "title": "Revolutionizing Security Ops with Generative AI: From Findings to Intelligent Runbooks"
+              "speaker": "Stefano Pizzo, Cory Davis, Jonathan Lee, and Aparicio Carranza (CUNY)",
+              "title": "Python-based Honeypot with AI Driven System Analysis"
             },
             {
               "room": "SC3103",
@@ -107,13 +107,13 @@
             },
             {
               "room": "SC3104",
-              "speaker": "Bhupinder Bhullar, Swiss Vault",
-              "title": "Shingled Magnetic Drives (SMRs) and their need for data storage to support AI Applications"
+              "speaker": "Paul Bergeron, Josue Abreu, Sandhya Aneja",
+              "title": "Should BBR be the Default TCP Congestion Control Protocol?"
             },
             {
               "room": "SC3105",
-              "speaker": "Michael Melore, IBM",
-              "title": "New AI/Deep Fakes and Quantum Computing Risk and Security"
+              "speaker": "John Craig, IBM",
+              "title": "TOTP Port Knocking for Defense in Depth"
             }
           ]
         },
@@ -194,7 +194,7 @@
             },
             {
               "room": "SC3104",
-              "speaker": "Muhammad Amer, Rosa Huerta, and Harrison Carranza, Bronx Community College",
+              "speaker": "Harrison Carranza, Bronx Community College",
               "title": "Penetration Testing with WireShark, John the Ripper, and Social Engineering Toolset (SET)"
             },
             {
@@ -211,22 +211,22 @@
     {
       "time": "3:00 PM – 3:30 PM",
       "title": "Student Poster Presenter Check-in & Setup",
-      "location": "3rd floor hallways"
+      "location": "3rd Floor Murray Student Center]"
     },
     {
       "time": "3:30 PM – 5:00 PM",
       "title": "Student Poster Viewing & Judging",
-      "location": "3rd floor hallways"
+      "location": "3rd Floor Murray Student Center]"
     },
     {
       "time": "5:00 PM – 6:00 PM",
       "title": "Networking with Refreshments",
-      "location": "3rd floor"
+      "location": "SC3102"
     },
     {
       "time": "6:00 PM – 6:30 PM",
       "title": "Awards Ceremony for MCC and MHV TechMeet Student Posters",
-      "location": "River Rooms (SC 3102–3105)"
+      "location": "SC3105"
     }
   ]
 }

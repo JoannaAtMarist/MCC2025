@@ -12,16 +12,19 @@ This page provides instructions on registering for the events happening at Maris
 The cost to attend all events is **free**, but you must have a **ticket** to enter.
 
 The registration covers **two events** with **up to three ticket choices**.  
-Each attendee may select one or more tickets.
+Each attendee may select one or more tickets.  
+<br>  
+
+The luncheon is now **Sold Out**. 
 
 ---
 
 ## MCC Tickets
 
-**Ticket 1:** *MCC Keynote Speaker & Buffet Lunch*  
+**Ticket 1:** *MCC Keynote Speaker & Buffet Lunch* - **SOLD OUT**
 - 11:30 am – 1:00 pm (includes Keynote; does not include technical talks)  
 - Keynote: *Scott Tunmer, “AI and Cybersecurity for Enterprise”*  
-- Limited seating; advance registration required by **October 27, 2025**  
+- Limited seating; advance registration required by October 27, 2025 
 - Reserved ticket required — no walk-ins accepted
 
 **Ticket 2:** *MCC Concurrent Technical Talks & Awards Ceremony*  
