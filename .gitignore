@@ -14,3 +14,8 @@ Thumbs.db
 .vscode/
 .idea/
 *:Zone.Identifier
+
+
+exporter-cli.js
+list-structure.js
+project-structure.txt
