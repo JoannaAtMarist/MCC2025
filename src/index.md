@@ -17,41 +17,18 @@ permalink: /index.html
   <div class="hero-text">
     <h1>Marist Computing Conference</h1>
     <h2>Hosted at Marist University</h2>
-    <h3>Friday, November 7, 2025</h3>
+    <h3>October 30, 2026</h3>
     <h3>Murray Student Center, 3399 North Rd, Poughkeepsie, NY 12601</h3>  
-    <p>
-      Be inspired to do more at the Marist Computing Conference. Talks, keynote lunch, 
-      networking — and a collocated student poster session (<a href="/techmeet/">TechMeet</a>).
-    </p>
-    <p><i>The Call for Papers is closed.</i></p>
+    <p><i>More information for MCC 2026 on the way...</i></p>
   </div>
 </section>
 
 
-<section class="save-the-date">
-  <div class="save-the-date-inner">
-    <div class="save-the-date-image">
-      <img src="/MCC2025/assets/images/hancock-center-official.jpg" alt="Hancock Center">
-    </div>
-    <div class="save-the-date-content">
-      <h2>Registration opens October 1st</h2>
-
-      <p><strong>Friday, November 7, 2025</strong><br>
-      Marist University · Poughkeepsie, NY</p>
-
-      <p><strong>Conference:</strong> 11:30 am – 3:00 pm<br>
-      <strong class="techmeet">TechMeet:</strong> 3:30 pm – 6:30 pm</p>
-
-      <p><em>No Cost to Conference Attendees</em></p>
-
-    </div>
-  </div>
-</section>
 
 <div class="keynote-card">
   <div class="keynote-inner">
     <div class="keynote-content">
-    <h2>Keynote Speaker</h2>
+    <h2>2025 Keynote Speaker</h2>
       <div class="title-block">
         <div>
           <p><strong>Scott Tunmer</strong><br>

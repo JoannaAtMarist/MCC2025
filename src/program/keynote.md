@@ -5,7 +5,7 @@ permalink: /program/keynote/index.html
 ---
 
 <section class="keynote-detail">
-  <h1>Keynote Speaker</h1>
+  <h1>2025 Keynote Speaker</h1>
 
   <div class="keynote-detail-inner">
     <div class="keynote-photo">
@@ -32,7 +32,6 @@ permalink: /program/keynote/index.html
         {{ schedule.keynote.location }}
       </p>
 
-      <p><strong>*Limited seating with advance registration</strong></p>
     </div>
   </div>
 </section>

@@ -3,7 +3,7 @@ title: Program at a Glance
 layout: layouts/base.njk
 ---
 
-<h2>Day At-A-Glance</h2>
+<h2>MCC 2025 Day At-A-Glance</h2>
 <p><strong>Keynote ({{ schedule.keynote.time }}):</strong> 
 {{ schedule.keynote.speaker }}, {{ schedule.keynote.organization }} — 
 <em>{{ schedule.keynote.title }}</em></p>

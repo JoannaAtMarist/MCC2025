@@ -6,14 +6,7 @@ permalink: /program/
 
 <h2>Marist Computing Conference</h2>
 
-<section>
-  <h3>For more information email: </h3>
-  <a href="{{ links.contact_email }}">MaristComputingConf@marist.edu</a>
-</section>
-
-<br>
-
-<h1>Program</h1>
+<h1>2025 Program</h1>
 <div class="schedule">
 
   {# ───────────────
